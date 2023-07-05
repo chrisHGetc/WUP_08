@@ -59,8 +59,7 @@ plot(LENGTH~HEADLEN,data=bears)
 abline(myheadlen)
 summary.lm(myheadlen)
 ```
-
-
+The comparison of the lenght and head length residuals standard error is 4.235 and the adjusted R-squared is .8434. 
 
 
 
