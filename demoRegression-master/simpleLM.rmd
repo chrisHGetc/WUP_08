@@ -59,7 +59,7 @@ plot(LENGTH~HEADLEN,data=bears)
 abline(myheadlen)
 summary.lm(myheadlen)
 ```
-The comparison of the lenght and head length residuals standard error is 4.235 and the adjusted R-squared is .8434. 
+The comparison between the length and head length reveals a residual standard error of 4.235, accompanied by an adjusted R-squared value of 0.8434. According to the current ranking system, the head length surpasses other measurements, securing the first position in terms of analysis.
 
 ```{r}
 myage <- lm(LENGTH~AGE,data=bears)
