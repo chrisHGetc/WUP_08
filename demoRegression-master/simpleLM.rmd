@@ -61,6 +61,13 @@ summary.lm(myheadlen)
 ```
 The comparison of the lenght and head length residuals standard error is 4.235 and the adjusted R-squared is .8434. 
 
+```{r}
+myage <- lm(LENGTH~AGE,data=bears)
+plot(LENGTH~AGE,data=bears)
+abline(myage)
+summary.lm(myage)
+```
+
 
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
