@@ -28,9 +28,13 @@ summary.lm(simp)
 ```
 The plot chart illustrates a bear with a neck measuring 20 inches, and it is anticipated that the bear's total length will reach approximately 57 inches. The residual standard error is 5.376 and the R- squared is .7524.
 
-
-
-
+```{r}
+mychest <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(mychest)
+summary.lm(mychest)
+```
+The residual standard error is 4.939, indicating a lower value in comparison to the initial length and neck measurements. This suggests that the current model provides a more accurate basis for comparison. Moreover, the chest measurement is ranked higher than the neck measurement.
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
