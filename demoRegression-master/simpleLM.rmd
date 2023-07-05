@@ -51,7 +51,7 @@ plot(LENGTH~WEIGHT,data=bears)
 abline(myweight)
 summary.lm(myweight)
 ```
-
+Residual standard error is 5.432 when comparing the length and weight. The adjusted R- squared is .7423.   
 
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
