@@ -43,7 +43,7 @@ plot(LENGTH~HEADWTH,data=bears)
 abline(myhead)
 summary.lm(myhead)
 ```
-The residual standard error of 7.32 is a higher value when compared to the other two measurements. As a result, it would be ranked in third place, indicating that it is the least favorable approach for analysis.
+The residual standard error of 7.32 of length compared to the head width is a higher value when compared to the other two measurements. As a result, it would be ranked in third place, indicating that it is the least favorable approach for analysis.
 
 ```{r}
 myweight <- lm(LENGTH~WEIGHT,data=bears)
