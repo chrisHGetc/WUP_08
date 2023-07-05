@@ -26,6 +26,10 @@ plot(LENGTH~NECK,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
+The plot chart illustrates a bear with a neck measuring 20 inches, and it is anticipated that the bear's total length will reach approximately 57 inches. The residual standard error is 5.376 and the R- squared is .7524.
+
+
+
 
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
