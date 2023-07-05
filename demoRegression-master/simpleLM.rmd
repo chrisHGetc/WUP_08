@@ -36,5 +36,18 @@ summary.lm(mychest)
 ```
 The residual standard error is 4.939, indicating a lower value in comparison to the initial length and neck measurements. This suggests that the current model provides a more accurate basis for comparison. Moreover, the chest measurement is ranked higher than the neck measurement.
 
+
+```{r}
+myhead <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(myhead)
+summary.lm(myhead)
+```
+The residual standard error of 7.32 is a higher value when compared to the other two measurements. As a result, it would be ranked in third place, indicating that it is the least favorable approach for analysis.
+
+
+
+
+
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
