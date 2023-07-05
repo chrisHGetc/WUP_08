@@ -53,6 +53,16 @@ summary.lm(myweight)
 ```
 Residual standard error is 5.432 when comparing the length and weight. The adjusted R- squared is .7423.   
 
+```{r}
+myheadlen <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(myheadlen)
+summary.lm(myheadlen)
+```
+
+
+
+
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
