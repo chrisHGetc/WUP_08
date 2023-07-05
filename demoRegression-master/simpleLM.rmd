@@ -67,7 +67,7 @@ plot(LENGTH~AGE,data=bears)
 abline(myage)
 summary.lm(myage)
 ```
-The residual standard error is 7.511 and adjusted R- squared is .5073 with length and age. 
+The comparison between length and age results in a residual standard error of 7.511, accompanied by an adjusted R-squared value of 0.5073. Based on the current ranking system, the length and age combination is deemed the least effective for comparison and analysis, thus placing it in the last position. 
 
 ##  Conclusion 
  
